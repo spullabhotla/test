@@ -5,7 +5,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<scm>
 		<connection>scm:git:https://spullabhotla@github.com/test.git</connection>
-		<developerConnection>scm:git:https://spullabhotla@github.com/test.git</developerConnection>
+		<developerConnection>scm:git:git://git@github.com:spullabhotla/test.git</developerConnection>
 	</scm>
 	<build>
 		<plugins>
@@ -27,7 +27,7 @@
 				<version>1.7</version>
 				<configuration>
 					<tag>${project.version}</tag>
-					<connectionType>connection</connectionType>
+					<connectionType>developerConnection</connectionType>
 				</configuration>
 				<executions>
 					<execution>
