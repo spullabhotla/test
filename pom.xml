@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.myjavaworld</groupId>
 	<artifactId>test</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<scm>
 		<connection>scm:git:https://spullabhotla@github.com/test.git</connection>
 		<developerConnection>scm:git:git@github.com:spullabhotla/test.git</developerConnection>
