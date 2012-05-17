@@ -35,11 +35,11 @@
 						<phase>deploy</phase>
 						<goals>
 							<goal>tag</goal>
+							<goal>branch</goal>
 						</goals>
 					</execution>
 				</executions>
 			</plugin>
-			<!-- snip -->
 		</plugins>
 	</build>
 </project>
