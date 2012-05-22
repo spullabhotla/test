@@ -5,7 +5,9 @@ import java.util.Date;
 public class App {
 
 	/**
-	 * @param args
+	 * Prints the greeting message to the console.
+	 * 
+	 * @param args command line arguments. 
 	 */
 	public static void main(String[] args) {
 		System.out.println("Hello World!!!");
