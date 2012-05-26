@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.myjavaworld</groupId>
 	<artifactId>test</artifactId>
-	<version>0.0.8</version>
+	<version>0.0.9-SNAPSHOT</version>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -19,7 +19,7 @@
 	<scm>
 		<connection>scm:git:https://spullabhotla@github.com/test.git</connection>
 		<developerConnection>scm:git:git@github.com:spullabhotla/test.git</developerConnection>
-		<tag>test-0.0.8</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<build>
