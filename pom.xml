@@ -77,7 +77,6 @@
 				<artifactId>maven-scm-plugin</artifactId>
 				<version>1.7</version>
 				<configuration>
-					<tag>${project.version}</tag>
 					<connectionType>developerConnection</connectionType>
 				</configuration>
 				<executions>
