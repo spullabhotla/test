@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.myjavaworld</groupId>
 	<artifactId>test</artifactId>
@@ -21,19 +22,6 @@
 		<developerConnection>scm:git:git@github.com:spullabhotla/test.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
-
-<!-- 	<distributionManagement> -->
-<!-- 		<repository> -->
-<!-- 			<id>LocalFileSystemRepo</id> -->
-<!-- 			<name>LocalFileSystemRepo</name> -->
-<!-- 			<url>file:///Users/sai/MavenRepo</url> -->
-<!-- 		</repository> -->
-<!-- 		<site> -->
-<!-- 			<id>LocalFileSystem</id> -->
-<!-- 			<url>file:///Users/sai/MavenSite/</url> -->
-<!-- 			<name>Local File System</name> -->
-<!-- 		</site> -->
-<!-- 	</distributionManagement> -->
 
 	<build>
 		<defaultGoal>test</defaultGoal>
@@ -88,18 +76,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-scm-plugin</artifactId>
-<!-- 				<dependencies> -->
-<!-- 					<dependency> -->
-<!-- 						<groupId>org.codehaus.plexus</groupId> -->
-<!-- 						<artifactId>plexus-utils</artifactId> -->
-<!-- 						<version>3.0.1</version> -->
-<!-- 					</dependency> -->
-<!-- 					<dependency> -->
-<!-- 						<groupId>org.apache.maven.scm</groupId> -->
-<!-- 						<artifactId>maven-scm-provider-gitexe</artifactId> -->
-<!-- 						<version>1.7</version> -->
-<!-- 					</dependency> -->
-<!-- 				</dependencies> -->
 				<version>1.7</version>
 				<configuration>
 					<tag>${project.version}</tag>
@@ -108,7 +84,6 @@
 				<executions>
 					<execution>
 						<id>tag</id>
-						<phase>install</phase>
 						<goals>
 							<goal>tag</goal>
 						</goals>
@@ -131,7 +106,7 @@
 				<version>2.3</version>
 				<configuration>
 					<releaseProfiles>release</releaseProfiles>
-					<goals>package assembly:single</goals>
+					<goals>install assembly:single</goals>
 				</configuration>
 			</plugin>
 		</plugins>
