@@ -8,6 +8,7 @@
 		<dependencySet>
 			<useProjectArtifact>true</useProjectArtifact>
 			<useTransitiveDependencies>true</useTransitiveDependencies>
+			<useProjectAttachments>true</useProjectAttachments>
 		</dependencySet>
 	</dependencySets>
 	<formats>
